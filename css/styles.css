@@ -43,7 +43,7 @@
     5. Improve text rendering
   */
   body {
-    line-height: 1.5;
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
   }
   /*
@@ -120,7 +120,7 @@
 .logos {
     aspect-ratio: 3/2;
     object-fit: contain;
-    margin-right: 7px;
+    margin-right: .435em;
 }
 
 .hover-items:is(:hover,:focus) {
@@ -137,7 +137,7 @@
     background-color: var(--clr-nuetral-darker);
     padding: 1.5rem;
     border-radius: 20px;
-    max-width: 300px;
+    max-width: 350px;
   }
    .product-img-div {
     position: relative;
